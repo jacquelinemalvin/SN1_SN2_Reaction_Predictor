@@ -1,0 +1,93 @@
+substrate_degree,special_environment,nucleophile_strength,solvent,leaving_group,mechanism,source
+methyl,none,strong,aprotic,Br,SN2,LibreTexts: Methyl bromide with OH⁻ in DMSO (https://chem.libretexts.org)
+primary,none,strong,aprotic,Cl,SN2,"McMurry, Organic Chemistry, 9th Ed., p. 243"
+primary,allylic,strong,aprotic,Br,SN2,"Clayden et al., Organic Chemistry, p. 341"
+primary,benzylic,strong,aprotic,Cl,SN2,LibreTexts: Benzyl chloride with CN⁻ in DMSO (https://chem.libretexts.org)
+secondary,none,moderate,aprotic,Br,SN2,MasterOrganicChemistry.com
+secondary,none,strong,protic,Br,SN1,"Solomons & Fryhle, Organic Chemistry, 11th Ed., p. 286"
+secondary,none,weak,protic,Cl,SN1,"Klein, Organic Chemistry, 3rd Ed., p. 225"
+tertiary,none,weak,protic,Cl,SN1,"OpenStax Organic Chemistry, 11.3 Hydrolysis"
+tertiary,none,strong,aprotic,I,SN1,"Solomons, p. 290"
+primary,none,strong,aprotic,I,SN2,"McMurry, p. 245"
+primary,none,strong,aprotic,OTs,SN2,Clayden et al.
+primary,none,strong,aprotic,OMs,SN2,Clayden et al.
+primary,none,strong,aprotic,OTf,SN2,Clayden et al.
+secondary,benzylic,strong,aprotic,Br,SN2,LibreTexts
+secondary,allylic,strong,aprotic,Br,SN2,LibreTexts
+secondary,none,weak,protic,Br,SN1,Klein
+tertiary,none,moderate,protic,Cl,SN1,Solomons
+primary,none,strong,aprotic,Br,SN2,Multiple sources
+methyl,none,strong,aprotic,I,SN2,Solomons
+primary,benzylic,moderate,protic,Cl,SN1,Clayden et al.
+secondary,none,strong,aprotic,OMs,SN2,Clayden et al.
+primary,none,weak,protic,Br,SN1,Klein
+tertiary,none,moderate,protic,Br,SN1,OpenStax
+primary,none,strong,aprotic,Br,SN2,LibreTexts
+secondary,none,strong,aprotic,Br,SN2,McMurry
+tertiary,none,weak,protic,Cl,SN1,Klein
+secondary,none,moderate,protic,Br,SN1,Solomons
+primary,allylic,strong,aprotic,OTs,SN2,Clayden et al.
+secondary,benzylic,strong,aprotic,OMs,SN2,LibreTexts
+primary,none,strong,aprotic,OTf,SN2,Clayden et al.
+tertiary,none,strong,protic,I,SN1,OpenStax
+primary,none,strong,aprotic,Cl,SN2,McMurry
+secondary,none,weak,protic,Br,SN1,Klein
+secondary,none,strong,aprotic,I,SN2,Solomons
+methyl,none,strong,aprotic,Br,SN2,LibreTexts
+primary,benzylic,strong,aprotic,Cl,SN2,Clayden et al.
+primary,none,moderate,protic,Br,SN1,Klein
+secondary,none,strong,aprotic,Br,SN2,McMurry
+tertiary,none,weak,protic,Br,SN1,OpenStax
+primary,none,strong,aprotic,I,SN2,Clayden et al.
+secondary,allylic,strong,aprotic,Br,SN2,LibreTexts
+tertiary,none,strong,protic,Br,SN1,Solomons
+primary,none,strong,aprotic,Br,SN2,LibreTexts
+secondary,none,strong,aprotic,OMs,SN2,Clayden et al.
+primary,none,strong,aprotic,OTs,SN2,Clayden et al.
+secondary,none,moderate,protic,Cl,SN1,Klein
+tertiary,none,strong,aprotic,I,SN1,OpenStax
+primary,none,strong,aprotic,Br,SN2,Multiple textbook sources
+secondary,benzylic,strong,aprotic,Cl,SN2,LibreTexts
+tertiary,none,weak,protic,Br,SN1,Solomons
+secondary,none,strong,aprotic,Br,SN2,McMurry
+primary,allylic,strong,aprotic,OMs,SN2,Clayden et al.
+secondary,none,moderate,protic,Br,SN1,Klein
+primary,none,strong,aprotic,I,SN2,OpenStax
+tertiary,none,strong,protic,Cl,SN1,Solomons
+primary,none,strong,aprotic,OTf,SN2,Clayden et al.
+secondary,none,strong,aprotic,Br,SN2,McMurry
+primary,none,weak,protic,Br,SN1,Klein
+tertiary,none,moderate,protic,Cl,SN1,OpenStax
+primary,none,strong,aprotic,Br,SN2,LibreTexts
+secondary,benzylic,strong,aprotic,Cl,SN2,Clayden et al.
+primary,allylic,strong,aprotic,OTs,SN2,Clayden et al.
+secondary,none,strong,aprotic,OMs,SN2,LibreTexts
+primary,none,strong,aprotic,I,SN2,McMurry
+tertiary,none,strong,protic,Br,SN1,Solomons
+primary,none,strong,aprotic,Cl,SN2,LibreTexts
+secondary,none,moderate,protic,Br,SN1,Klein
+primary,none,strong,aprotic,Br,SN2,McMurry
+secondary,none,strong,aprotic,OTf,SN2,Clayden et al.
+secondary,none,strong,aprotic,Br,SN2,LibreTexts
+primary,none,strong,aprotic,Br,SN2,Multiple sources
+tertiary,none,weak,protic,Cl,SN1,Solomons
+secondary,none,strong,aprotic,Br,SN2,McMurry
+primary,allylic,strong,aprotic,OMs,SN2,Clayden et al.
+secondary,none,moderate,protic,Br,SN1,Klein
+primary,none,strong,aprotic,I,SN2,OpenStax
+tertiary,none,strong,protic,Cl,SN1,Solomons
+primary,none,strong,aprotic,OTf,SN2,Clayden et al.
+secondary,none,strong,aprotic,Br,SN2,McMurry
+primary,none,weak,protic,Br,SN1,Klein
+tertiary,none,moderate,protic,Cl,SN1,OpenStax
+primary,none,strong,aprotic,Br,SN2,LibreTexts
+secondary,benzylic,strong,aprotic,Cl,SN2,Clayden et al.
+primary,allylic,strong,aprotic,OTs,SN2,Clayden et al.
+secondary,none,strong,aprotic,OMs,SN2,LibreTexts
+primary,none,strong,aprotic,I,SN2,McMurry
+tertiary,none,strong,protic,Br,SN1,Solomons
+primary,none,strong,aprotic,Cl,SN2,LibreTexts
+secondary,none,moderate,protic,Br,SN1,Klein
+primary,none,strong,aprotic,Br,SN2,McMurry
+secondary,none,strong,aprotic,OTf,SN2,Clayden et al.
+secondary,none,strong,aprotic,Br,SN2,LibreTexts
