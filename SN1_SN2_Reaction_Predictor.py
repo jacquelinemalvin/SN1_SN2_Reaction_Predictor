@@ -32,7 +32,7 @@ FIELD_PROMPTS = {
 }
 
 # Get the absolute path to the folder where this script is located
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(__file__)
 
 # --- Data Preprocessing ---
 def preprocess_data(csv_path):
@@ -150,11 +150,19 @@ def generate_explanation(predicted_label, substrate, nucleophile_strength, solve
     Returns a human-readable explanation for why the prediction was made.
     """
     if predicted_label == "SN2":
-        return (f"Since {leaving_group} is a good leaving group and the substrate is {substrate} "
-                f"with a {nucleophile_strength} nucleophile in a {solvent} solvent, this favors SN2.")
-    elif predicted_label == "SN1":
-        return (f"The {substrate} substrate and {solvent} solvent favor carbocation formation, "
-                f"and with {leaving_group} as the leaving group, this reaction proceeds via SN1.")
+        return  (f" SN2 reactions occur in a single step and are dependent on \n"
+                f" alkyl halide and leaving group concentrations. \n"
+                f" As the nucleophile binds to a carbon atom on one side, \n"
+                f" the leaving group departs on another side. \n"
+                f" Non-bulky substrates and {solvent} solvents favor SN2. \n"
+                f" Protic solvents tend to decrease SN2 reaction rates due to solvation of the nucleophile. \n"
+                f" While, aprotic solvents increase reaction rate by solvation of the neighboring cation. \n")
+    elif predicted_label == 'SN1':
+        return (f" SN1 reactions are first order reactions and have a \n carbocation intermediate. \n"
+                f" This reaction is favored when a stable carbocation is formed. \n"
+                f" Bulkier substrates increase SN1 reactivity. \n"
+                f" Protic solvents favor carbocation formation. \n"
+                f" SN1 reaction rates are not affected by nucleophiles as they are not in the rate limiting step.")
     else:
         return "Prediction unknown."
 

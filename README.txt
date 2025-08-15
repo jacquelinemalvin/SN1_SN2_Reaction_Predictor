@@ -12,7 +12,6 @@ Quick Setup:
 1. Install Python 3.10+ if not installed.
 2. Install dependencies:
    pip install -r requirements.txt
-3. Keep all files in the same folder to ensure paths work correctly.
 
 How to Run:
 - Run the predictor:
