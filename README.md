@@ -21,6 +21,9 @@ However, chemistry has exceptions to its rules—so some predictions may not be 
 ## How to Run:
 - Run the predictor:
    python SN1-SN2-Reaction-Predictor.py
+  - To run on Jupyter notebook, download Anaconda-Navigator
+  - cd into the directory where the notebook is stored.
+  - Run jupyter notebook
 - If the model is not yet trained, it will train automatically using SN1_SN2_Mechanisms.csv.
 - The program will prompt you for: 
    - Substrate degree (methyl, primary, secondary, tertiary)
